@@ -30,7 +30,7 @@ if (document.getElementById("app")) {
                 fetch(url, options)
                     .then(res => res.text()) // or res.json()
                     .then(res => {
-                        location.reload();
+                        location.reload();  //recargar el json y actualiza la pagina
                     })
             }
         },
